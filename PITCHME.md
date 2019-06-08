@@ -7,11 +7,22 @@
 ---?code=mac_install.sh
 実行するコード一覧
 
----?code=mac_install.sh
-@[1](これ以降の作業を実行するために必要です)
+---
+```sh
+xcode-select --install
+```
+xcodeツールのインストール.
+これ以降の作業を実行するために必要です.
+英語のポップアップが表示されますが、基本的にAgreeを選択していればOKです.
 
----?code=mac_install.sh
-@[2](Homebrewというツールのダウンロード.Homebrewとは、色んなツールをダウンロードするためのツールで、これさえあれば大抵の機能は追加できる)
+---
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Homebrewというツールのダウンロード.Homebrewとは、色んなツールをダウンロードするためのツールで、これさえあれば大抵の機能は追加できる
 
----?code=mac_install.sh
-@[3](brewが入ってるかどうかの確認.brewのバージョンが表示される)
+---
+```sh
+brew -v
+```
+brewが入ってるかどうかの確認.brewのバージョンが表示される
