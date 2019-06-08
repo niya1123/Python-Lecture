@@ -54,7 +54,6 @@ Windowsはバージョン切り替えのツールの貧弱性から基本python�
 ---
 
 windowsキーを押して、cndと入力してコマンドプロントを開く.
-python -V と入力して、pythonがインストールされているかを確認する.
 
 <img src="win_py_cmd.png">
 
