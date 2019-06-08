@@ -39,3 +39,15 @@ Windowsはバージョン切り替えのツールの貧弱性から基本python�
 [<img src="win-py.png">
 ](https://www.python.org/)
 
+---
+
+図のようにクリックしたら、ダウンロードが開始します.
+
+<img src="win_py_dl.png">
+
+---
+
+図のようにクリック
+
+<img src = "win_py_install.png">
+
