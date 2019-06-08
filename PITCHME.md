@@ -49,5 +49,5 @@ Windowsはバージョン切り替えのツールの貧弱性から基本python�
 
 図のようにクリック
 
-<img src = "win_py_install.png">
+<img src="win_py_install.png">
 
