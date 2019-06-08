@@ -12,15 +12,5 @@
 @[1](xcodeツールのインストール.
 これ以降の作業を実行するために必要です.
 英語のポップアップが表示されますが、基本的にAgreeを選択していればOKです.)
-
----
-```sh
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-Homebrewというツールのダウンロード.Homebrewとは、色んなツールをダウンロードするためのツールで、これさえあれば大抵の機能は追加できる
-
----
-```sh
-brew -v
-```
-brewが入ってるかどうかの確認.brewのバージョンが表示される
+@[2](Homebrewというツールのダウンロード.Homebrewとは、色んなツールをダウンロードするためのツールで、これさえあれば大抵の機能は追加できる.)
+@[3](brewが入ってるかどうかの確認.brewのバージョンが表示される)
