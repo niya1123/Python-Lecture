@@ -36,6 +36,6 @@ Windowsはバージョン切り替えのツールの貧弱性から基本python�
 ---
 [ここ](https://www.python.org/)からpythonの公式サイトに飛んでください.
 
-<img src="win-py.png">
-
+[<img src="win-py.png">
+](https://www.python.org/)
 
