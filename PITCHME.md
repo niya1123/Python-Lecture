@@ -55,5 +55,5 @@ Windowsはバージョン切り替えのツールの貧弱性から基本python�
 
 windowsキーを押して、cndと入力してコマンドプロントを開く.
 
-<img src="win_py_cmd.png">
+<img src="win_py_cmd.png" width="60%">
 
