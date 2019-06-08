@@ -7,8 +7,7 @@
 ---?code=mac_install.sh
 実行するコード一覧
 
----
-?code=mac_install.sh
+---?code=mac_install.sh
 @[1](xcodeツールのインストール.
 これ以降の作業を実行するために必要です.
 英語のポップアップが表示されますが、基本的にAgreeを選択していればOKです.)
