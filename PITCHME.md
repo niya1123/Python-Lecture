@@ -12,3 +12,6 @@
 
 ---?code=mac_install.sh
 @[2](Homebrewというツールのダウンロード.Homebrewとは、色んなツールをダウンロードするためのツールで、これさえあれば大抵の機能は追加できる)
+
+---?code=mac_install.sh
+@[3](brewが入ってるかどうかの確認.brewのバージョンが表示される)
