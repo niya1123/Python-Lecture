@@ -4,5 +4,5 @@
 
 ## Classとは
 
----
+---?code=class_ex.py
 
