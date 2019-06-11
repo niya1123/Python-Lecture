@@ -1,9 +1,11 @@
 # 第二回 
-## Classとdef
+## Class
 
 ---
 
 ## Classとは
 
 ---?code=class_ex.py
+
+---
 
