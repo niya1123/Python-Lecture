@@ -87,3 +87,15 @@ class: ReplyHello
 メソッド: \_\_init\_\_(引数2個), say_hello(引数1個)
 
 メイン文: インスタンス生成後、say_helloメソッドを実行して`こんにちは、何々さん!`と出力
+
+---?code=example2.py
+
+参考例を用いて次のクラスを作ってください
+
+---
+
+class: BuzzFizz
+
+メソッド: \_\_init\_\_(引数3個), is_buzz_fizz(引数3個)
+
+メイン文: インスタンス
