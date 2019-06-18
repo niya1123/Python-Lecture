@@ -83,5 +83,7 @@ if __name__ == "__main__":
 ---
 
 class: ReplyHello
+
 メソッド: \_\_init\_\_(引数2個), say_hello(引数1個)
+
 メイン文: インスタンス生成後、say_helloメソッドを実行して`こんにちは、何々さん!`と出力
