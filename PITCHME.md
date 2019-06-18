@@ -41,9 +41,23 @@ Classを用いた実装
 
 ### 習うより慣れろということで早速実践
 
----?code=example.py
+---
+簡単なクラスの例
 
-@[0]簡単なclassの例
+```python
+class SayYourName():
 
+    def __init__(self, name):
+        self.name = name
+
+    def say_name(self):
+        print(self.name + "さん、こんにちは!")
+
+
+if __name__ == "__main__":
+    s = SayYourName(input("名前を入力してください: "))
+    s.say_name()
+
+```
 @[1](classの宣言.クラス名は本当はなんでもいいけど、コーディング規則的には最初大文字 + 大文字区切りが推奨されている) 
 @[3](javaでいうコンストラクタ.コンストラクタとは, インスタンス生成時に自動的に呼び出されるメソッドのことです) 
