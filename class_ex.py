@@ -51,7 +51,6 @@ class narouDownloader:
         except FileExistsError:
             print(self.novelTitle + "はすでに存在しています")
             print("内容をアップデートします")
-            pass
 
         # 作業ディレクトリを対象の小説のフォルダーに移動
         os.chdir(self.novelTitle)
