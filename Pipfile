@@ -11,7 +11,7 @@ autopep8 = "*"
 lxml = "*"
 
 [scripts]
-start = "python class_ex.py"
+start = "python example.py"
 lint = "flake8 ."
 fix = "autopep8 -ivr ."
 
