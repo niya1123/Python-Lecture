@@ -17,12 +17,17 @@ class FizzBuzz():
 
 if __name__ == "__main__":
     import sys
-    for i in sys.argv[1:]:
-        try:
-            if(type(int(i)) is not int):
+    if len(sys.argv) == 3:        
+        for i in sys.argv[1:]:
+            try:
+                if(type(int(i)) is not int):
+                    print('引数が不正です')
+                    sys.exit(0)    
+            except ValueError:
                 print('引数が不正です')
-                sys.exit(0)    
-        except ValueError:
-            print('引数が不正です')
+                sys.exit(0)
+    else:
+        print("引数が不正です")
+        sys.exit(0)
 
     FizzBuzz(int(sys.argv[1]), int(sys.argv[2])+1).fizz_buzz()
