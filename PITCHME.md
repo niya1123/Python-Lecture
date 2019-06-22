@@ -94,8 +94,8 @@ class: ReplyHello
 
 ---
 
-class: BuzzFizz
+class: FizzBuzz
 
-メソッド: \_\_init\_\_(引数3個), is_buzz_fizz(引数3個)
+メソッド: \_\_init\_\_(引数3個), fizz_buzz(引数3個)
 
 メイン文: インスタンス
