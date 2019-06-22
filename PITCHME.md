@@ -99,3 +99,11 @@ class: FizzBuzz
 メソッド: \_\_init\_\_(引数3個), fizz_buzz(引数3個)
 
 メイン文: インスタンスを生成後, fizz_buzzメソッドを実行
+
+---
+
+ ## 模範解答
+
+---?code=reply_hello.py
+
+---?code=fizzbuzz.py
