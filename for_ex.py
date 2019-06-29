@@ -1,3 +1,5 @@
+# coding: utf-8
+
 url = 'http://kindai-csg.com/'
 
 for u in url:

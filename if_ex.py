@@ -1,3 +1,5 @@
+# coding: utf-8
+
 value = 10
 fruit_box = ['apple', 'orange', 'banana']
 
