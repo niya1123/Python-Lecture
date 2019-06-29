@@ -10,3 +10,7 @@ for u in url:
 else:
     print()
     print('表示したやよ～')
+
+# 内包表記
+data = [x for x in range(0,10001) if x % 500 == 0]
+print(data)
