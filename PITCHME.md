@@ -38,3 +38,17 @@ for文はこんな感じ
 
 集合, 辞書の生成: {繰り返し変数を使った要素の表現 for 繰り返し変数 in データ構造}
 
+---
+
+また, 内包表記には前置ifと後置ifを置くことができ, 前者はif-else文の場合, 後者はifのみの場合というように使い分ける.以下に例を示す.
+
+```python
+zenti = ['FizzBuzz' if x % 15 == 0 else 'Fizz' if x % 3 == 0 else 'Buzz' if x % 5 == 0 else x for x in range(1, 1001)]
+
+kouti = [x**2 for x in range(10) if x % 3 == 0]
+```
+
+---
+
+
+
