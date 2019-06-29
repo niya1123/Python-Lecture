@@ -34,9 +34,9 @@ for文はこんな感じ
 
 内包表記は, リスト, 集合, 辞書の生成に使われる.基本例は以下.
 
-リストの生成: [繰り返し変数を使った要素の表現 for 繰り返し変数 in データ構造]
+リストの生成: [繰り返し変数を使った要素の処理 for 繰り返し変数 in データ構造]
 
-集合, 辞書の生成: {繰り返し変数を使った要素の表現 for 繰り返し変数 in データ構造}
+集合, 辞書の生成: {繰り返し変数を使った要素の処理 for 繰り返し変数 in データ構造}
 
 ---
 
@@ -50,5 +50,37 @@ kouti = [x**2 for x in range(10) if x % 3 == 0]
 
 ---
 
+慣れるまでの内包表記の書き方.
+
+```python
+zenti = []
+for x in range(1,1001):
+    if(x % 15 == 0):
+        zenti.append('FizzBuzz')
+    elif(x % 3 == 0):
+        zenti.append('Fizz')
+    elif(x % 5 == 0):
+        zenti.append('Buzz')
+    else:
+        zenti.append(x)
+```
+
+というのをまず実装する.
+
+---
+
+```python
+zenti = []
+for x in range(1,1001):
+    if(x % 15 == 0):
+        zenti.append('FizzBuzz')
+    elif(x % 3 == 0):
+        zenti.append('Fizz')
+    elif(x % 5 == 0):
+        zenti.append('Buzz')
+    else:
+        zenti.append(x)
+```
+@[3-10](ここをどう考えるかというと, まずif文の処理を最初に書く.次にif文の条件式を書く.次にelse文には次のelif文の処理を書く.これを順繰りに書いていく.)
 
 
