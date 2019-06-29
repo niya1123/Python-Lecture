@@ -98,4 +98,23 @@ for x in range(1,1001):
 
 ---
 
-問題: 1000までに登場する素数を表示せよ.
+問題: 1000(x < 1000の意)までに登場する素数を表示せよ.
+
+---
+
+### 解答例
+
+---?code=prime_number.py
+
+---
+
+```python
+for i in range(2, 1000):
+    is_prime_number = True
+    for n in range(2, i):
+        if i % n == 0:
+            is_prime_number = False
+            break
+    if sosu:
+       print(i)
+```
